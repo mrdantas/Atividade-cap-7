@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    font-family: monospace;
+}
+
+header{
+    background-color: black;
+    height: auto;
+    border-bottom: 3px solid #20639d;
+}
+
+.form-top{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-top input{
+    margin: 10px 0px;
+}
+
+.form-top label{
+    padding-left: 30px;
+}
+
+.div-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.title{
+    margin-bottom: 50px;
+}
+
+.form-standard{
+    background-color: rgba(128, 128, 128, 0.401) ;
+    width: 350px;
+    float: right;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.form-standard *{
+    text-align: center;
+}
+
+.form-set{
+    border: none;
+}
+
+.form-set div label{
+    display: block;
+    padding: 5px;
+    font-size: 19px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(179, 179, 179);
+}
+
+.form-set div input{
+    padding: 4px;
+    border-radius: 7px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.66);
+    margin: 10px 0px;
+}
+
+.form-set .btn{
+    margin-top: 40px;
+}
+
+.form-top .btn2 a{
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 4px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.form-set .btn a{
+    padding: 10px;
+    background-color: rgb(76, 76, 76);
+    color: blanchedalmond;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+
+.word1{
+    color:rgb(184, 183, 183);
+    margin-right: 5px;
+    
+}
+
+.word2{
+    color:rgb(184, 183, 183);
+    margin-right: 5px;
+}
+
+@media (max-width: 426px) {
+    .div-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-standard{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .form-top label{
+        padding-left: 0px;
+    }
+    .form-top btn2 a{
+        margin-left: 80px;
+    }
+}

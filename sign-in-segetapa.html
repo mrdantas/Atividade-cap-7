@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/sign-in-segetapa.css">
+    <title>Sign in - Health Track</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="div-flex">
+            <div>
+                <img src="./img/logo-signin.png" class="logo" alt="Health Track">
+            </div>
+    </header>
+    <div class="h1">
+        <h1>Continuando cadastro...</h1>
+    </div>
+    <div class="container">
+        <fieldset class="form1">
+            <div>
+                <label>Pratica exercício físico?</label>
+                <label">
+                    <input type="radio" name="exercicio" value="sim" checked required>Sim
+                    </label>
+                    <label for="nao">
+                        <input type="radio" name="exercicio" value="nao">Não
+                    </label>
+                    <div>
+                        <label>(se pratica, quais são?)</label><br><br>
+                        <input type="checkbox" id="exercicio1" name="exercicio1" value="corrida">
+                        <label for="exercicio1">Corrida</label>
+                        <input type="checkbox" id="exercicio2" name="exercicio2" value="natacao">
+                        <label for="exercicio2">Natação</label>
+                        <input type="checkbox" id="exercicio3" name="exercicio3" value="musculação">
+                        <label for="exercicio3">Musculação</label>
+                        <input type="checkbox" id="exercicio4" name="exercicio4" value="outro">
+                        <label for="exercicio4">Outros</label>
+                    </div>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="form2">
+            <div>
+                <label>Segue alguma dieta?</label>
+                <label>
+                    <input type="radio" name="dieta" value="simdieta" checked required>Sim
+                </label>
+                <label>
+                    <input type="radio" name="dieta" value="naodieta">Não
+                </label>
+                <br>
+                <label>Como está a sua alimentação HOJE?</label>
+                <select id="alimentacao">
+                    <option selected disabled value="">Selecione:</option>
+                    <option>Está saudável</option>
+                    <option>Saudável mas como porcaria de vez em quando</option>
+                    <option>Acredito que posso melhorar minha alimentação</option>
+                    <option>Não está saudável</option>
+                    <option>Não sei</option>
+                </select>
+            </div>
+        </fieldset>
+    </div>
+
+    </form>
+    <div class="btn">
+        <a href="index.html">Entrar</a>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="div-flex">
+                <div>
+                    <h4>
+                        ©2021 Eliel Dantas
+                    </h4>
+                </div>
+                <div>
+                    <img class="logo-footer" src="./img/6-logofooter.png" alt="Icone health track">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
